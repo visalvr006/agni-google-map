@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+.form-outer-wrapper .form-preview-wrapper fieldset {
+  outline: none;
+  border: none;
+}
+
+.form-outer-wrapper.form-preview{
+  display: block;
+  padding-top: 0px;
+}
+
+
+.form-outer-wrapper .field-row {
+  padding-top: 8px;
+  margin: 6px 0;
+  position: relative;
+}
+
+.form-outer-wrapper .field-row label.field_label {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+
+.map-container {
+  position: fixed !important;
+}
